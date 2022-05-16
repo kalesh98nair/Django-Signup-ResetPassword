@@ -1,0 +1,18 @@
+{% extends "base.html"%}
+{% block start %}
+
+
+    <div class="text-center">
+
+        <h1>Welcome {{user.username}} </h1>
+        <!--a href="/logout/" class="btn btn-danger">Logout</a-->
+    </div>
+
+    <div class="topnav">
+        <a class="logout" href="/logout/">LOGOUT</a>
+        <a class="feeds" href="">FEEDS</a>
+        <a class="profile" href="">PROFILE</a>
+    </div>
+
+
+{% endblock %}  
